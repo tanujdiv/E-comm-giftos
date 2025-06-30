@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Wedding Hall</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .navbar { background-color: #8B0000; }
+        .navbar-brand, .nav-link { color: white !important; }
+        .hero { 
+            background: url('wedding-hall.jpg') no-repeat center center; 
+            background-size: cover; 
+            height: 80vh; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            color: white; 
+            text-align: center;
+            background-color: rgba(139, 0, 0, 0.7);
+        }
+        .section-title { color: #8B0000; }
+        .bg-dark-custom { background-color: #470D0D; color: white; }
+        .btn-primary { background-color: #D2691E; border: none; }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Dream Wedding Hall</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to Dream Wedding Hall</h1>
+            <p>Where fairytales come to life.</p>
+            <a href="#contact" class="btn btn-primary">Reserve Now</a>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="section-title">Our Services</h2>
+            <p>We offer luxurious venues, gourmet catering, elegant decor, and complete wedding solutions.</p>
+            <div class="row">
+                <div class="col-md-4"><h4>Venue Setup</h4><p>Custom-designed spaces tailored to your dream wedding.</p></div>
+                <div class="col-md-4"><h4>Catering</h4><p>Exquisite menus curated for your special day.</p></div>
+                <div class="col-md-4"><h4>Decor</h4><p>Breathtaking floral arrangements and theme-based designs.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="py-5">
+        <div class="container text-center">
+            <h2 class="section-title">Gallery</h2>
+            <div class="row">
+                <div class="col-md-4"><img src="hall1.jpg" class="img-fluid rounded" alt="Wedding Hall"></div>
+                <div class="col-md-4"><img src="hall2.jpg" class="img-fluid rounded" alt="Decoration"></div>
+                <div class="col-md-4"><img src="hall3.jpg" class="img-fluid rounded" alt="Seating Arrangement"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-5 bg-dark-custom">
+        <div class="container text-center">
+            <h2 class="section-title">What Our Couples Say</h2>
+            <p>"The most enchanting wedding venue ever!" - A Happy Bride</p>
+            <p>"Unmatched elegance and spectacular service!" - Newlyweds</p>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="section-title">Contact Us</h2>
+            <form>
+                <div class="mb-3"><input type="text" class="form-control" placeholder="Your Name" required></div>
+                <div class="mb-3"><input type="email" class="form-control" placeholder="Your Email" required></div>
+                <div class="mb-3"><textarea class="form-control" rows="4" placeholder="Message" required></textarea></div>
+                <button type="submit" class="btn btn-primary">Send Inquiry</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
